@@ -10,17 +10,17 @@ namespace GameConsole
     {
         static void Main(string[] args)
         {
-            PlayerCharacter sarah = new PlayerCharacter(new DiamondSkinDefence())
+            PlayerCharacter sarah = new(new DiamondSkinDefence())
             {
                 Name = "Sarah"            
             };
 
-            PlayerCharacter amrit = new PlayerCharacter(new IronBonesDefence())
+            PlayerCharacter amrit = new(new IronBonesDefence())
             {
                 Name = "Amrit"
             };
 
-            PlayerCharacter gentry = new PlayerCharacter(new NullDefence())
+            PlayerCharacter gentry = new(new NullDefence())
             {
                 Name = "Gentry"
             };
